@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HALLOWEEN SPECIAL — Premium Pumpkin Shop</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     LOADER
+========================================================= -->
+
+<div class="loader" id="loader">
+
+  <div class="loader-box">
+
+    <div class="loader-pumpkin"></div>
+
+    <div class="loader-text">
+      Enter the harvest
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     CURSOR
+========================================================= -->
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+
+<!-- =========================================================
+     SMOKE
+========================================================= -->
+
+<div class="smoke smoke-left"></div>
+<div class="smoke smoke-right"></div>
+<div class="smoke smoke-bottom"></div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="nav" id="nav">
+
+  <a
+    href="#home"
+    class="logo"
+  >
+    PUMPKINS <span>FOR HALLOWEEN</span>
+  </a>
+
+
+  <nav class="nav-links">
+
+    <a href="#home">
+      HOME
+    </a>
+
+    <a href="#shop">
+      SHOP
+    </a>
+
+    <a href="#ways">
+      HALLOWEEN
+    </a>
+
+    <a href="#farm">
+      OUR FARM
+    </a>
+
+    <a href="#varieties">
+      VARIETIES
+    </a>
+
+  </nav>
+
+
+  <div class="nav-actions">
+
+
+    <!-- PREMIUM CART -->
+
+    <button
+      class="cart-btn"
+      id="cartOpen"
+      aria-label="Open shopping cart"
+    >
+
+      <span class="cart-icon-wrap">
+
+        <svg
+          class="cart-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+
+          <path
+            d="M3 4H5L7.2 15.2C7.4 16.2 8.3 17 9.3 17H18.4C19.3 17 20.1 16.4 20.4 15.5L22 9H6"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+
+          <circle
+            cx="9.5"
+            cy="20"
+            r="1.3"
+            fill="currentColor"
+          />
+
+          <circle
+            cx="18"
+            cy="20"
+            r="1.3"
+            fill="currentColor"
+          />
+
+        </svg>
+
+
+        <span
+          class="cart-count"
+          id="cartCount"
+        >
+          0
+        </span>
+
+      </span>
+
+
+      <span class="cart-label">
+        CART
+      </span>
+
+    </button>
+
+
+    <!-- HAMBURGER -->
+
+    <button
+      class="hamburger"
+      id="hamburger"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE MENU
+========================================================= -->
+
+<div
+  class="mobile-menu"
+  id="mobileMenu"
+>
+
+  <div class="mobile-menu-inner">
+
+    <div>
+
+      <div class="mobile-menu-label">
+        PUMPKIN NOIR / MENU
+      </div>
+
+
+      <nav class="mobile-links">
+
+        <a href="#home">
+          HOME
+        </a>
+
+        <a href="#shop">
+          SHOP
+        </a>
+
+        <a href="#ways">
+          HALLOWEEN
+        </a>
+
+        <a href="#farm">
+          OUR FARM
+        </a>
+
+        <a href="#varieties">
+          VARIETIES
+        </a>
+
+      </nav>
+
+    </div>
+
+
+    <div class="mobile-menu-footer">
+
+      <span>
+        FRESH FROM THE FARM
+      </span>
+
+      <span>
+        HARVEST 2026
+      </span>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section
+  class="background"
+  id="home"
+>
+
+  <img
+    class="background-image"
+    src="hero img.png"
+    alt="Pumpkin field"
+  >
+
+
+  <div class="background-content">
+
+    <div class="eyebrow">
+      FRESH FROM THE FARM
+    </div>
+
+
+    <h1>
+
+      THE
+
+      <span>
+        HARVEST
+      </span>
+
+      IS HERE.
+
+    </h1>
+
+
+    <p class="background-copy">
+
+      Premium pumpkins grown for the darkest nights,
+      brightest porches and most unforgettable
+      Halloween moments.
+
+    </p>
+
+
+    <div class="background-buttons">
+
+      <a
+        href="#shop"
+        class="btn btn-primary"
+      >
+        SHOP THE HARVEST
+      </a>
+
+      <a
+        href="#ways"
+        class="btn btn-outline"
+      >
+        EXPLORE HALLOWEEN
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="background-bottom">
+
+    <div class="scroll">
+
+      <span class="scroll-line"></span>
+
+      SCROLL TO DISCOVER
+
+    </div>
+
+
+    <div class="season">
+      HARVEST 2026
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     MARQUEE
+========================================================= -->
+
+<div class="marquee">
+
+  <div class="marquee-track">
+
+    <div class="marquee-item">
+      FRESH FROM THE FARM
+    </div>
+
+    <div class="marquee-item">
+      HAND PICKED
+    </div>
+
+    <div class="marquee-item">
+      HALLOWEEN READY
+    </div>
+
+    <div class="marquee-item">
+      PREMIUM PUMPKINS
+    </div>
+
+    <div class="marquee-item">
+      FRESH FROM THE FARM
+    </div>
+
+    <div class="marquee-item">
+      HAND PICKED
+    </div>
+
+    <div class="marquee-item">
+      HALLOWEEN READY
+    </div>
+
+    <div class="marquee-item">
+      PREMIUM PUMPKINS
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     SHOP
+========================================================= -->
+
+<section
+  class="section shop"
+  id="shop"
+>
+
+  <div class="container">
+
+    <div class="section-title reveal">
+
+      <small>
+        THE COLLECTION
+      </small>
+
+      <h2>
+
+        PICK YOUR
+
+        <span>
+          PERFECT
+        </span>
+
+        PUMPKIN.
+
+      </h2>
+
+    </div>
+
+
+    <div class="products">
+
+
+      <!-- CLASSIC -->
+
+      <article class="product reveal">
+
+        <div class="product-image">
+
+          <img
+            src="https://images.pexels.com/photos/34197925/pexels-photo-34197925.jpeg?cs=srgb&dl=pexels-anna-klymenko-2154232859-34197925.jpg&fm=jpg"
+            alt="Classic pumpkin"
+            loading="lazy"
+          >
+
+          <div class="badge">
+            BEST SELLER
+          </div>
+
+          <div class="price">
+            $18
+          </div>
+
+        </div>
+
+
+        <div class="product-info">
+
+          <small>
+            THE ORIGINAL
+          </small>
+
+          <h3>
+            The Classic
+          </h3>
+
+          <p>
+            Bright orange, beautifully shaped and
+            perfect for carving, decorating and display.
+          </p>
+
+
+          <div class="product-footer">
+
+            <span class="origin">
+              FARM PICKED
+            </span>
+
+            <button
+              class="add"
+              data-name="The Classic"
+              data-price="18"
+              data-image="https://images.pexels.com/photos/34197925/pexels-photo-34197925.jpeg?cs=srgb&dl=pexels-anna-klymenko-2154232859-34197925.jpg&fm=jpg"
+            >
+              ADD TO CART →
+            </button>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- BLACK MAGIC -->
+
+      <article class="product reveal">
+
+        <div class="product-image">
+
+          <img
+            src="https://images.pexels.com/photos/34487911/pexels-photo-34487911.jpeg?cs=srgb&dl=pexels-norbert-szomszed-2157011681-34487911.jpg&fm=jpg"
+            alt="Black Magic pumpkin"
+            loading="lazy"
+          >
+
+          <div class="badge">
+            LIMITED
+          </div>
+
+          <div class="price">
+            $24
+          </div>
+
+        </div>
+
+
+        <div class="product-info">
+
+          <small>
+            DARK EDITION
+          </small>
+
+          <h3>
+            Black Magic
+          </h3>
+
+          <p>
+            A dramatic Halloween pumpkin with
+            a mysterious dark atmosphere.
+          </p>
+
+
+          <div class="product-footer">
+
+            <span class="origin">
+              LIMITED HARVEST
+            </span>
+
+            <button
+              class="add"
+              data-name="Black Magic"
+              data-price="24"
+              data-image="https://images.pexels.com/photos/34487911/pexels-photo-34487911.jpeg?cs=srgb&dl=pexels-norbert-szomszed-2157011681-34487911.jpg&fm=jpg"
+            >
+              ADD TO CART →
+            </button>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- GIANT -->
+
+      <article class="product reveal">
+
+        <div class="product-image">
+
+          <img
+            src="https://images.pexels.com/photos/14145330/pexels-photo-14145330.jpeg?cs=srgb&dl=pexels-matreding-14145330.jpg&fm=jpg"
+            alt="Giant pumpkin"
+            loading="lazy"
+          >
+
+          <div class="badge">
+            STATEMENT
+          </div>
+
+          <div class="price">
+            $36
+          </div>
+
+        </div>
+
+
+        <div class="product-info">
+
+          <small>
+            GO BIG
+          </small>
+
+          <h3>
+            The Giant
+          </h3>
+
+          <p>
+            Big, bold and impossible to ignore.
+            Made for dramatic Halloween displays.
+          </p>
+
+
+          <div class="product-footer">
+
+            <span class="origin">
+              HAND SELECTED
+            </span>
+
+            <button
+              class="add"
+              data-name="The Giant"
+              data-price="36"
+              data-image="https://images.pexels.com/photos/14145330/pexels-photo-14145330.jpeg?cs=srgb&dl=pexels-matreding-14145330.jpg&fm=jpg"
+            >
+              ADD TO CART →
+            </button>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOUR WAYS
+========================================================= -->
+
+<section
+  class="ways"
+  id="ways"
+>
+
+  <div class="container">
+
+    <div class="section-title reveal">
+
+      <small>
+        MAKE IT YOURS
+      </small>
+
+      <h2>
+
+        FOUR WAYS TO
+
+        <span>
+          DO HALLOWEEN.
+        </span>
+
+      </h2>
+
+    </div>
+
+
+    <div class="ways-grid">
+
+
+      <article class="way reveal">
+
+        <div class="way-image">
+
+          <img
+            src="https://images.pexels.com/photos/14145330/pexels-photo-14145330.jpeg?cs=srgb&dl=pexels-matreding-14145330.jpg&fm=jpg"
+            alt="Carving pumpkin"
+            loading="lazy"
+          >
+
+          <div class="number">
+            01
+          </div>
+
+        </div>
+
+
+        <div class="way-content">
+
+          <small>
+            CREATE
+          </small>
+
+          <h3>
+            CARVE IT
+          </h3>
+
+          <p>
+            Turn a fresh pumpkin into your own
+            glowing Halloween masterpiece.
+          </p>
+
+          <a href="#shop">
+            SHOP PUMPKINS →
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="way reveal">
+
+        <div class="way-image">
+
+          <img
+            src="https://images.pexels.com/photos/34197925/pexels-photo-34197925.jpeg?cs=srgb&dl=pexels-anna-klymenko-2154232859-34197925.jpg&fm=jpg"
+            alt="Pumpkin field"
+            loading="lazy"
+          >
+
+          <div class="number">
+            02
+          </div>
+
+        </div>
+
+
+        <div class="way-content">
+
+          <small>
+            DECORATE
+          </small>
+
+          <h3>
+            GLOW IT
+          </h3>
+
+          <p>
+            Fill your porch, stairs and garden
+            with warm autumn pumpkin energy.
+          </p>
+
+          <a href="#shop">
+            FIND YOUR PUMPKIN →
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="way reveal">
+
+        <div class="way-image">
+
+          <img
+            src="https://images.pexels.com/photos/5599858/pexels-photo-5599858.jpeg?cs=srgb&dl=pexels-domenicopaolella-5599858.jpg&fm=jpg"
+            alt="Glowing Halloween pumpkin"
+            loading="lazy"
+          >
+
+          <div class="number">
+            03
+          </div>
+
+        </div>
+
+
+        <div class="way-content">
+
+          <small>
+            SET THE MOOD
+          </small>
+
+          <h3>
+            LIGHT IT
+          </h3>
+
+          <p>
+            Let the orange glow cut through
+            the darkness and transform the night.
+          </p>
+
+          <a href="#shop">
+            GET THE GLOW →
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="way reveal">
+
+        <div class="way-image">
+
+          <img
+            src="https://images.pexels.com/photos/34487911/pexels-photo-34487911.jpeg?cs=srgb&dl=pexels-norbert-szomszed-2157011681-34487911.jpg&fm=jpg"
+            alt="Halloween pumpkin"
+            loading="lazy"
+          >
+
+          <div class="number">
+            04
+          </div>
+
+        </div>
+
+
+        <div class="way-content">
+
+          <small>
+            EXPERIENCE
+          </small>
+
+          <h3>
+            GO BIG
+          </h3>
+
+          <p>
+            Build a Halloween scene people will
+            remember long after October ends.
+          </p>
+
+          <a href="#shop">
+            EXPLORE THE HARVEST →
+          </a>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     FARM
+========================================================= -->
+
+<section
+  class="farm"
+  id="farm"
+>
+
+  <img
+    class="farm-image"
+    src="https://images.pexels.com/photos/17511875/pexels-photo-17511875.jpeg"
+    alt="Pumpkin farm"
+    loading="lazy"
+  >
+
+
+  <div class="farm-content reveal">
+
+    <small>
+      FROM OUR FIELDS
+    </small>
+
+    <h2>
+
+      GROWN FOR
+
+      <span>
+        HALLOWEEN.
+      </span>
+
+    </h2>
+
+    <p>
+      We grow our pumpkins slowly, giving every
+      variety time to develop its shape, color
+      and character. When October arrives,
+      we hand-select the best of the harvest.
+    </p>
+
+    <a
+      href="#shop"
+      class="btn btn-primary"
+      style="margin-top:30px;"
+    >
+      SHOP THE FARM
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     VARIETIES
+========================================================= -->
+
+<section
+  class="varieties"
+  id="varieties"
+>
+
+  <div class="container">
+
+    <div class="section-title reveal">
+
+      <small>
+        THE COLLECTION
+      </small>
+
+      <h2>
+
+        MEET THE
+
+        <span>
+          VARIETIES.
+        </span>
+
+      </h2>
+
+    </div>
+
+
+    <div class="variety-grid">
+
+
+      <article class="variety reveal">
+
+        <img
+          src="https://images.pexels.com/photos/34197925/pexels-photo-34197925.jpeg?cs=srgb&dl=pexels-anna-klymenko-2154232859-34197925.jpg&fm=jpg"
+          alt="Classic pumpkin"
+          loading="lazy"
+        >
+
+        <div class="variety-info">
+
+          <small>
+            01 / CLASSIC
+          </small>
+
+          <h3>
+            The Orange
+          </h3>
+
+        </div>
+
+      </article>
+
+
+      <article class="variety reveal">
+
+        <img
+          src="https://images.pexels.com/photos/34487911/pexels-photo-34487911.jpeg?cs=srgb&dl=pexels-norbert-szomszed-2157011681-34487911.jpg&fm=jpg"
+          alt="Black pumpkin"
+          loading="lazy"
+        >
+
+        <div class="variety-info">
+
+          <small>
+            02 / NOIR
+          </small>
+
+          <h3>
+            Black Magic
+          </h3>
+
+        </div>
+
+      </article>
+
+
+      <article class="variety reveal">
+
+        <img
+          src="https://images.pexels.com/photos/5599858/pexels-photo-5599858.jpeg?cs=srgb&dl=pexels-domenicopaolella-5599858.jpg&fm=jpg"
+          alt="Jack o lantern"
+          loading="lazy"
+        >
+
+        <div class="variety-info">
+
+          <small>
+            03 / GLOW
+          </small>
+
+          <h3>
+            Jack-O-Lantern
+          </h3>
+
+        </div>
+
+      </article>
+
+
+      <article class="variety reveal">
+
+        <img
+          src="https://images.pexels.com/photos/14145330/pexels-photo-14145330.jpeg?cs=srgb&dl=pexels-matreding-14145330.jpg&fm=jpg"
+          alt="Giant pumpkin"
+          loading="lazy"
+        >
+
+        <div class="variety-info">
+
+          <small>
+            04 / GIANT
+          </small>
+
+          <h3>
+            The Beast
+          </h3>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+========================================================= -->
+
+<section class="cta">
+
+  <img
+    class="cta-image"
+    src="https://images.pexels.com/photos/5599858/pexels-photo-5599858.jpeg?cs=srgb&dl=pexels-domenicopaolella-5599858.jpg&fm=jpg"
+    alt="Halloween pumpkins"
+    loading="lazy"
+  >
+
+
+  <div class="cta-content reveal">
+
+    <small>
+      OCTOBER IS CALLING
+    </small>
+
+    <h2>
+
+      FIND YOUR
+
+      <span>
+        PERFECT
+      </span>
+
+      PUMPKIN.
+
+    </h2>
+
+    <a
+      href="#shop"
+      class="btn btn-primary"
+    >
+      ENTER THE HARVEST
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+  <div class="footer-top">
+
+    <div>
+
+      <div class="footer-logo">
+
+        PUMPKINS FOR HALLOWEEN
+        <span>MADE FOR HALLOWEEN</span>
+
+      </div>
+
+      <p class="footer-description">
+
+        Premium pumpkins for unforgettable
+        Halloween nights. Grown with patience.
+        Picked with purpose.
+
+      </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+      <div class="footer-column">
+
+        <h4>
+          EXPLORE
+        </h4>
+
+        <a href="#home">
+          Home
+        </a>
+
+        <a href="#shop">
+          Shop
+        </a>
+
+        <a href="#ways">
+          Halloween
+        </a>
+
+        <a href="#farm">
+          Our Farm
+        </a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>
+          COLLECTION
+        </h4>
+
+        <a href="#shop">
+          Classic
+        </a>
+
+        <a href="#shop">
+          Black Magic
+        </a>
+
+        <a href="#shop">
+          The Giant
+        </a>
+
+        <a href="#varieties">
+          Varieties
+        </a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>
+          SOCIAL
+        </h4>
+
+        <a href="#">
+          Instagram
+        </a>
+
+        <a href="#">
+          Pinterest
+        </a>
+
+        <a href="#">
+          TikTok
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <span>
+      © 2026 PUMPKINS FOR HALLOWEEN. ALL RIGHTS RESERVED.
+    </span>
+
+    <span>
+      GROWN FOR THE NIGHT.
+    </span>
+
+  </div>
+
+</footer>
+
+
+<!-- =========================================================
+     CART OVERLAY
+========================================================= -->
+
+<div
+  class="cart-overlay"
+  id="cartOverlay"
+></div>
+
+
+<!-- =========================================================
+     CART PANEL
+========================================================= -->
+
+<aside
+  class="cart-panel"
+  id="cartPanel"
+>
+
+  <div class="cart-head">
+
+    <h3>
+      YOUR HARVEST
+    </h3>
+
+    <button
+      class="cart-close"
+      id="cartClose"
+      aria-label="Close cart"
+    >
+      ×
+    </button>
+
+  </div>
+
+
+  <div
+    class="cart-items"
+    id="cartItems"
+  >
+
+    <div class="empty">
+      Your harvest is empty.
+    </div>
+
+  </div>
+
+
+  <div class="cart-bottom">
+
+    <div class="total">
+
+      <span>
+        TOTAL
+      </span>
+
+      <span id="cartTotal">
+        $0
+      </span>
+
+    </div>
+
+    <button
+      class="checkout"
+      id="checkout"
+    >
+      CHECKOUT →
+    </button>
+
+  </div>
+
+</aside>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
