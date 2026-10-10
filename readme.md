@@ -83,4 +83,4 @@ The website uses a Halloween-inspired visual identity while keeping the focus on
 
 ## 👩‍💻 Author
 
-Pratishtha
+Pratishtha Gadwanshi
